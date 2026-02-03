@@ -11,24 +11,35 @@ function mainPage(){
 }
 
 function gatosPage(){
-    $banner = "./mages/allanimals.jpg";
-    $title = "todos os animais";
-    $content = $items;
+    global $items;
+    $banner = "./images/banner_cat.jpg";
+    $title = "Gatos";
+    $content =  array_filter($items, function($animal){
+        return $animal['type'] == "gato";
+    });
 
     include "./include/layout.php";
 }
 function cachorrosPage(){
-    $banner = "./mages/allanimals.jpg";
-    $title = "todos os animais";
-    $content = $items;
+    global $items;
+    $banner = "./images/banner_puppy.jpg";
+    $title ="cachorro";
+    $content =  array_filter($items, function($animal){
+        return $animal['type'] == "cachorro";
+    });
+
 
     include "./include/layout.php";
 }
 
 function peixesPage(){
-    $banner = "./mages/allanimals.jpg";
-    $title = "todos os animais";
-    $content = $items;
+    global $items;
+    $banner = "./images/banner_fish.jpg";
+    $title = "peixe";
+    $content = rray_filter($items, function($animal){
+        return $animal['type'] == "peixes";
+    });
+
 
     include "./include/layout.php";
 }

@@ -18,8 +18,10 @@
         <li class=""><a href="">Peixes</a></li>
     </ul>
 </nav>
+<?php if($_SERVER['REQUEST_URL']) ?>
 <section class="banner" style="background-image: url('<?= $banner?>')"><?= $title ?></section>
 <h2> <?= $title ?> disponíveis para adoção</h2>
+<?php endif; ?>
 
 <div class="container list">
     <?php  foreach($content as $animal):?>
