@@ -12,10 +12,10 @@
 
 <nav>
     <ul>
-        <li class="active"><a href="">Todos</a></li>
-        <li class=""><a href="">Cachorros</a></li>
-        <li class=""><a href="">Gatos</a></li>
-        <li class=""><a href="">Peixes</a></li>
+        <li class="<?= $active['main']?>"><a href="/site/">Todos</a>
+        <li class="<?= $active=['cachorros']?>"><a href="/site/cachorros">Cachorros</a>
+        <li class="<?= $active['gatos']?>"><a href="/site/gatos">Gatos</a>
+        <li class="<?= $active['peixes']?>"><a href="/site/peixes">Peixes</a>
     </ul>
 </nav>
 <?php if($_SERVER['REQUEST_URL']) ?>
