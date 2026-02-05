@@ -24,6 +24,41 @@ else if ($URL == "/canil-senai/peixes"){
     
 }
 
+else if ($URL == "/canil-senai/calopsita"){
+    calopsitaPage();
+    
+}
+
+else if ($URL == "/canil-senai/papagaio"){
+    papagaioPage();
+    
+}
+
+else if ($URL == "/canil-senai/canario"){
+    canarioPage();
+    
+}
+
+else if ($URL == "/canil-senai/raposa"){
+    raposaPage();
+    
+}
+
+else if ($URL == "/canil-senai/coelho"){
+    coelhoPage();
+    
+}
+
+else if ($URL == "/canil-senai/rato"){
+    ratoPage();
+    
+}
+
+else if ($URL == "/canil-senai/passaros"){
+    passarosPage();
+    
+}
+
 else if ($URL == "/canil-senai/pesquisa"){
     echo "rota de pesquisa";
 }

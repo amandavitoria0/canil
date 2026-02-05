@@ -54,5 +54,96 @@ function peixesPage(){
     include "./include/layout.php";
 }
 
+function calopsitaPage(){
+    global $items, $active;
+    $active = ["main"] = "active";
+    $banner = "./images/banner_fish.jpg";
+    $title = "calopsita";
+    $content = rray_filter($items, function($animal){
+        return $animal['type'] == "calopsita";
+    });
+
+
+    include "./include/layout.php";
+}
+
+function papagaioPage(){
+    global $items, $active;
+    $active = ["main"] = "active";
+    $banner = "./images/banner_fish.jpg";
+    $title = "papagaio";
+    $content = rray_filter($items, function($animal){
+        return $animal['type'] == "papagaio";
+    });
+
+
+    include "./include/layout.php";
+}
+
+function canarioPage(){
+    global $items, $active;
+    $active = ["main"] = "active";
+    $banner = "./images/banner_fish.jpg";
+    $title = "canario";
+    $content = rray_filter($items, function($animal){
+        return $animal['type'] == "canario";
+    });
+
+
+    include "./include/layout.php";
+}
+
+function raposaPage(){
+    global $items, $active;
+    $active = ["main"] = "active";
+    $banner = "./images/banner_fish.jpg";
+    $title = "raposa";
+    $content = rray_filter($items, function($animal){
+        return $animal['type'] == "raposa";
+    });
+
+
+    include "./include/layout.php";
+}
+
+function coelhoPage(){
+    global $items, $active;
+    $active = ["main"] = "active";
+    $banner = "./images/banner_fish.jpg";
+    $title = "coelho";
+    $content = rray_filter($items, function($animal){
+        return $animal['type'] == "coelho";
+    });
+
+
+    include "./include/layout.php";
+}
+
+function ratoPage(){
+    global $items, $active;
+    $active = ["main"] = "active";
+    $banner = "./images/banner_fish.jpg";
+    $title = "rato";
+    $content = rray_filter($items, function($animal){
+        return $animal['type'] == "rato";
+    });
+
+
+    include "./include/layout.php";
+}
+
+function passarosPage(){
+    global $items, $active;
+    $active = ["main"] = "active";
+    $banner = "./images/banner_fish.jpg";
+    $title = "passaros";
+    $content = rray_filter($items, function($animal){
+        return $animal['type'] == "passaros";
+    });
+
+
+    include "./include/layout.php";
+}
+
 
 ?>

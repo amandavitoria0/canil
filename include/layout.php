@@ -15,7 +15,14 @@
         <li class="<?= $active['main']?>"><a href="/site/">Todos</a>
         <li class="<?= $active=['cachorros']?>"><a href="/site/cachorros">Cachorros</a>
         <li class="<?= $active['gatos']?>"><a href="/site/gatos">Gatos</a>
-        <li class="<?= $active['peixes']?>"><a href="/site/peixes">Peixes</a>
+        <li class="<?= $active['peixes']?>"><a href="/site/peixes">Peixes</a> 
+        <li class="<?= $active['calopsita']?>"><a href="/site/calopsita">calopsita</a> 
+        <li class="<?= $active['papagaio']?>"><a href="/site/papagaio">papagaio</a> 
+        <li class="<?= $active['canario']?>"><a href="/site/canario">canario</a> 
+        <li class="<?= $active['raposa']?>"><a href="/site/raposa">raposa</a> 
+        <li class="<?= $active['coelho']?>"><a href="/site/coelho">coelho</a> 
+        <li class="<?= $active['rato']?>"><a href="/site/rato">rato</a> 
+        <li class="<?= $active['passaros']?>"><a href="/site/passaros">passaros</a> 
     </ul>
 </nav>
 <?php if($_SERVER['REQUEST_URL']) ?>

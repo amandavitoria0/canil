@@ -120,6 +120,67 @@ $items = [
         'genre' => 'masculino',
         'type'  => 'peixe'
     ]
+
+    [
+    'nome' => 'Calopsita',
+    'imagem' => 'images/passaro-calopsita-1.jpg',
+    'tipo' => 'passaro',
+    'genero' => 'Fêmea',
+    'cor' => 'Cinza'
+    ],
+
+    [
+    'nome' => 'Papagaio',
+    'imagem' => 'images/papagaio.webp.jpg',
+    'tipo' => 'passaro',
+    'genero' => 'Macho',
+    'cor' => 'Verde'
+    ],
+
+    [
+    'nome' => 'Canário',
+    'imagem' => 'images/canario.jpg',
+    'tipo' => 'passaro',
+    'genero' => 'Macho',
+    'cor' => 'Amarelo'
+    ],
+
+    [
+    'nome' => 'raposa',
+    'imagem' => 'images/raposa.jpg',
+    'tipo' => 'mamifero',
+    'genero' => 'Femea',
+    'cor' => 'Colorada'    
+
+    ],
+
+    [
+    'nome' => 'coelho',
+    'imagem' => 'images/coelho.jpg',
+    'tipo' => 'mamifero',
+    'genero' => 'Femea',
+    'cor' => 'Branco'    
+
+    ],
+
+    [
+    'nome' => 'rato',
+    'imagem' => 'images/rato.jpg',
+    'tipo' => 'mamifero',
+    'genero' => 'Masculino',
+    'cor' => 'Cinza'    
+
+    ],
+
+    [
+    'nome' => 'passaros',
+    'imagem' => 'images/passaros.jpg',
+    'tipo' => 'ave',
+    'genero' => 'Masculino',
+    'cor' => 'azul'    
+
+    ],
+
 ];
 
 
